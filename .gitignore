@@ -55,3 +55,53 @@ CodeCoverage/
 *.VisualState.xml
 TestResult.xml
 nunit-*.xml
+
+# AI
+AGENTS.md
+
+# IDEs / Editors
+.vs/
+.idea/
+.vscode/*
+!.vscode/extensions.json
+!.vscode/launch.json
+!.vscode/tasks.json
+*.sln.iml
+*.DotSettings.user
+*.csproj.user
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Local configuration and secrets
+.env.*
+!.env.example
+appsettings.Development.local.json
+appsettings.Local.json
+**/secrets.json
+
+# .NET user-specific files
+*.user
+*.suo
+*.rsuser
+
+# Testing and coverage
+coverage/
+coverage-report/
+TestResults/
+*.coverage
+*.coveragexml
+coverage.cobertura.xml
+
+# Local Docker data
+.docker-data/
+docker-data/
+volumes/
+
+# Benchmark results
+BenchmarkDotNet.Artifacts/
+
+# Local tooling
+.http-client.env.json
+.http-client.private.env.json
