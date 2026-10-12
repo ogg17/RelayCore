@@ -1,0 +1,14 @@
+services:
+  postgres:
+    image: postgres:17
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: relaycore
+      POSTGRES_PASSWORD: relaycore_dev
+      POSTGRES_DB: relaycore
+    ports:
+      - "127.0.0.1:5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+volumes:
+  postgres_data:

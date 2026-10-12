@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk.Worker">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>dotnet-RelayCore.Worker-5334be67-f98b-457d-943f-e8129c7a924a</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="10.0.12" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\RelayCore.Application\RelayCore.Application.csproj" />
+    <ProjectReference Include="..\RelayCore.Infrastructure\RelayCore.Infrastructure.csproj" />
+  </ItemGroup>
+</Project>

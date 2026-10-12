@@ -1,0 +1,6 @@
+@RelayCore.Api_HostAddress = http://localhost:5137
+
+GET {{RelayCore.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
