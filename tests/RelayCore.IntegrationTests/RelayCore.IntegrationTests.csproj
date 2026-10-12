@@ -18,4 +18,9 @@
     <Using Include="Xunit" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\RelayCore.Api\RelayCore.Api.csproj" />
+    <ProjectReference Include="..\..\src\RelayCore.Infrastructure\RelayCore.Infrastructure.csproj" />
+  </ItemGroup>
+
 </Project>

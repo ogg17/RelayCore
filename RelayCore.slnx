@@ -2,12 +2,17 @@
   <Folder Name="/src/">
     <Project Path="src/RelayCore.Api/RelayCore.Api.csproj" />
     <Project Path="src/RelayCore.Application/RelayCore.Application.csproj" />
+    <Project Path="src/RelayCore.Contracts/RelayCore.Contracts.csproj" />
     <Project Path="src/RelayCore.Domain/RelayCore.Domain.csproj" />
     <Project Path="src/RelayCore.Infrastructure/RelayCore.Infrastructure.csproj" />
     <Project Path="src/RelayCore.Worker/RelayCore.Worker.csproj" />
   </Folder>
   <Folder Name="/tests/">
     <Project Path="tests/RelayCore.IntegrationTests/RelayCore.IntegrationTests.csproj" />
+    <Project Path="tests/RelayCore.LoadTests/RelayCore.LoadTests.csproj" />
     <Project Path="tests/RelayCore.UnitTests/RelayCore.UnitTests.csproj" />
+  </Folder>
+  <Folder Name="/tools/">
+    <Project Path="tools/RelayCore.ClientSimulator/RelayCore.ClientSimulator.csproj" />
   </Folder>
 </Solution>

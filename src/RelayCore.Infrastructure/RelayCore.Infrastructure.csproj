@@ -3,6 +3,15 @@
   <ItemGroup>
     <ProjectReference Include="..\RelayCore.Domain\RelayCore.Domain.csproj" />
     <ProjectReference Include="..\RelayCore.Application\RelayCore.Application.csproj" />
+    <ProjectReference Include="..\RelayCore.Contracts\RelayCore.Contracts.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="10.*">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+    <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="10.*" />
   </ItemGroup>
 
   <PropertyGroup>

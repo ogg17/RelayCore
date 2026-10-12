@@ -13,6 +13,7 @@
   <ItemGroup>
     <ProjectReference Include="..\RelayCore.Application\RelayCore.Application.csproj" />
     <ProjectReference Include="..\RelayCore.Infrastructure\RelayCore.Infrastructure.csproj" />
+    <ProjectReference Include="..\RelayCore.Contracts\RelayCore.Contracts.csproj" />
   </ItemGroup>
 
 </Project>

@@ -58,6 +58,7 @@ nunit-*.xml
 
 # AI
 AGENTS.md
+RelayCoreSpecification.md
 
 # IDEs / Editors
 .vs/
