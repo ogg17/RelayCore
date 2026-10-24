@@ -1,0 +1,214 @@
+{
+  "main": {
+    "id": "8d316451b6e33444",
+    "type": "split",
+    "children": [
+      {
+        "id": "22dcf9fb22fdd62e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6ae896dc39796dbf",
+            "type": "leaf",
+            "state": {
+              "type": "kanban",
+              "state": {
+                "file": "TASK.md",
+                "kanbanViewState": {
+                  "kanban-plugin": "board",
+                  "list-collapse": [
+                    false,
+                    false,
+                    false
+                  ]
+                }
+              },
+              "icon": "lucide-trello",
+              "title": "TASK"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "ef0d60c34c0c6884",
+    "type": "split",
+    "children": [
+      {
+        "id": "7242d0f22ee7087c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d94bb88b2b4a32e2",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "49f76bec398b7f3d",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "46a7d42bfcea2030",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "0eefa8fda4207865",
+    "type": "split",
+    "children": [
+      {
+        "id": "d1b373fee7f915b7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5563b4ca99576d25",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "7883b14c862e8b7e",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "384343b89ba302e8",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "c405899be4d4d7d8",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "edbb857b44b7e744",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Untitled.base",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false,
+      "obsidian-kanban:Create new board": false
+    }
+  },
+  "active": "6ae896dc39796dbf",
+  "lastOpenFiles": [
+    "tests/RelayCore.UnitTests/UserTests.cs",
+    "tests/RelayCore.UnitTests/DeviceTests.cs",
+    "src/RelayCore.Domain/Device.cs",
+    "src/RelayCore.Domain/User.cs",
+    "src/RelayCore.Api/obj/b8cf3b7a-944a-4086-a5e6-ef8940a7ec5c.tmp",
+    "tests/RelayCore.UnitTests/obj/43f08294-1704-47fc-b85f-6524629eb6ba.tmp",
+    "tools/RelayCore.ClientSimulator/obj/e9ab7958-d70f-463d-92c7-0bf8c7eadebd.tmp",
+    "tests/RelayCore.LoadTests/obj/6eca46d2-714a-4517-876f-eaba8249da23.tmp",
+    "tests/RelayCore.LoadTests/obj/13fad5c0-7e09-4830-a4d5-9705b0a7d715.tmp",
+    "tools/RelayCore.ClientSimulator/obj/2c3c534f-1217-4937-a550-a77ee789de50.tmp",
+    "tools/RelayCore.ClientSimulator/obj/d56db2ac-c36a-4583-8ad4-73d3517c56c5.tmp",
+    "TASK.md",
+    "README.md",
+    "AGENTS.md",
+    "RelayCoreSpecification.md"
+  ]
+}
