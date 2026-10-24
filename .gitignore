@@ -106,4 +106,4 @@ BenchmarkDotNet.Artifacts/
 # Local tooling
 .http-client.env.json
 .http-client.private.env.json
-.obsidian
+.obsidian/
